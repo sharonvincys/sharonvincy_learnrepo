@@ -1,5 +1,5 @@
 import json
-file_name = r'''C:\Users\Bob\Desktop\example.txt'''
+file_name = r'''C:\Users\Sharon-2\Documents\GitHub\sharonvincy_learnrepo'''
 with open(file_name, 'r', encoding='utf-8') as file:
 
     ex5 = json.load(file)
@@ -16,7 +16,7 @@ with open(file_name, 'r', encoding='utf-8') as file:
     print(ex5)
         
 
-file_name = r'''C:\Users\Bob\Desktop\example.txt'''
+
 with open(file_name, 'w', encoding='utf-8') as out:
     json.dump(ex5,out,indent=4)
 
